@@ -1,3 +1,19 @@
+# 2023-04-02 Hans Märki
+
+This repo demonstrates
+
+* VSCode devcontainer
+* Runs equally on github codespaces
+* dockercompose with these containers
+  * app:
+    * vscode-python3 with uvicorn and FastAPI
+    * Application: http://127.0.0.1:8000/docs
+  * mongo-container: Mongo DB on port 27017
+  * mongo-express-container: Mongo DB express on http://127.0.0.1:8081/
+* Start the app
+  * VSCode Run and Debug "Python: FastAPI on uvicorn" 
+
+
 # MongoDB with FastAPI
 
 This is a small sample project demonstrating how to build an API with [MongoDB](https://developer.mongodb.com/) and [FastAPI](https://fastapi.tiangolo.com/).
