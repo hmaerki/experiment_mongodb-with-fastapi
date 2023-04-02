@@ -14,8 +14,7 @@
                 "--reload"
             ],
             "env": {
-                // "MONGODB_URL":   "mongodb+srv://hansmaerki:xG9yZLPqU4RuWHSh@cluster0.airz7oy.mongodb.net/test"
-                "MONGODB_URL":   "mongodb://root:example@127.0.0.1/"
+                "MONGODB_URL":   "mongodb://root:example@mongo-container:27017/"
             },
             "justMyCode": true
         },
