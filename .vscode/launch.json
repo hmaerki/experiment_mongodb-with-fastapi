@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Module uvicorn",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "app:app",
+                "--reload"
+            ],
+            "env": {
+                // "MONGODB_URL":   "mongodb+srv://hansmaerki:xG9yZLPqU4RuWHSh@cluster0.airz7oy.mongodb.net/test"
+                "MONGODB_URL":   "mongodb://root:example@127.0.0.1/"
+            },
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "app:app"
+            ],
+            "jinja": true,
+            "justMyCode": true
+        }
+    ]
+}
